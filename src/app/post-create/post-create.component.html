@@ -1,0 +1,7 @@
+<mat-form-field><textarea matinput [value]="newPost" #postInput></textarea></mat-form-field>
+
+<textarea matinput [(ngModel)]="enteredValue">{{enteredValue}}</textarea>
+<hr>
+<button (click)="onAddPost(postInput)">save post</button>
+<p>{{newPost}}</p>
+<P>{{enteredValue}}</P>
