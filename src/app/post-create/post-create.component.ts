@@ -8,10 +8,11 @@ import { NgModel } from '@angular/forms';
 })
 export class PostCreateComponent {
   enteredValue='';
-  newPost='No content';
+  newPost='';
   onAddPost(postInput:HTMLTextAreaElement){
     
-    this.newPost=this.enteredValue+"Hi u ar at aditya's page" + postInput.value;
+    // this.newPost=this.enteredValue+"Hi u ar at aditya's page" + postInput.value;
+    this.newPost=this.enteredValue;
 
   }
 }

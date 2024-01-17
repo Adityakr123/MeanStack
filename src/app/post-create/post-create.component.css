@@ -1,0 +1,15 @@
+mat-card{
+    width:fit-content;
+    margin: auto;
+    margin-bottom:10%;
+}
+
+/* mat-form-feild,
+textarea{
+    width:100%;
+} */
+button{
+    width:50%;
+    align-self:center;
+    margin-bottom:10px;
+}
