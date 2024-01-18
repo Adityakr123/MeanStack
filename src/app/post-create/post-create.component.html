@@ -1,8 +1,15 @@
-<mat-card><mat-form-field><textarea matinput [value]="newPost" #postInput [(ngModel)]="enteredValue"></textarea></mat-form-field>
-
-<!-- <textarea matinput [(ngModel)]="enteredValue">{{enteredValue}}</textarea> -->
-<hr>
-<button (click)="onAddPost(postInput)" mat-raised-button color="primary" >save post</button>
+<mat-card>
+    <mat-form-field>
+        <textarea matinput [value]="newPost" #postInput [(ngModel)]="enteredValue"></textarea>
+    </mat-form-field>
+    <!-- <textarea matinput [(ngModel)]="enteredValue">{{enteredValue}}</textarea> -->
+    <hr>
+    <button (click)="onAddPost(postInput)" mat-raised-button color="primary" >save post</button>
 </mat-card>
 <p>{{newPost}}</p>
+<hr>
+<hr>
 <!-- <P>{{enteredValue}}</P> -->
+<!-- <textarea #postInput_1 ></textarea>
+<button (click)="onAddPost_1(postInput_1)">save_1</button>
+<p>{{newPost_1}}</p> -->

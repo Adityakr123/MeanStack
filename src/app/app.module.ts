@@ -13,7 +13,9 @@ import { C1Component } from './c1/c1.component';
 import { PostCreateComponent } from './post-create/post-create.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
-import { PostListComponent } from './post-list/post-list.component';//this line 
+import { PostListComponent } from './post-list/post-list.component';
+import { PannelComponent } from './pannel/pannel.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { PostListComponent } from './post-list/post-list.component';//this line
     C1Component,
     PostCreateComponent,
     HeaderComponent,
-    PostListComponent
+    PostListComponent,
+    PannelComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-aditya',
-  templateUrl: './aditya.component.html',
-  styleUrls: ['./aditya.component.css']
+  selector: 'app-pannel',
+  templateUrl: './pannel.component.html',
+  styleUrls: ['./pannel.component.css']
 })
-export class AdityaComponent {
+export class PannelComponent {
   posts=[
     {title:"First post",content:"adi is good"},
     {title:"second post",content:" second adi is good"},

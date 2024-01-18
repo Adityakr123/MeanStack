@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./post-list.component.css']
 })
 export class PostListComponent {
-
+  posts=[
+    {title:"First post",content:"adi is good"},
+    {title:"second post",content:" second adi is good"},
+    {title:"third post",content:"third is good"},
+    {title:"fourth post",content:"fourth is good"}
+  ];
 }

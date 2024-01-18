@@ -15,4 +15,5 @@ export class PostCreateComponent {
     this.newPost=this.enteredValue;
 
   }
+
 }
