@@ -15,6 +15,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { PannelComponent } from './pannel/pannel.component';
+import { NavbarComponentComponent } from './navbar-component/navbar-component.component';
+import { HomecomponentComponent } from './homecomponent/homecomponent.component';
+import { GithubProfileComponentComponent } from './github-profile-component/github-profile-component.component';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
 
 
 @NgModule({
@@ -26,6 +30,10 @@ import { PannelComponent } from './pannel/pannel.component';
     HeaderComponent,
     PostListComponent,
     PannelComponent,
+    NavbarComponentComponent,
+    HomecomponentComponent,
+    GithubProfileComponentComponent,
+    NotFoundComponentComponent,
   ],
   imports: [
     BrowserModule,
